@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 宁静致远
+title: 进击的前端工程狮
 subtitle:
 description:
 keywords:
@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://crews.github.io/blog
-root: /blog/
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: git@github.com:CrewS/blog.git
   branch: master
+
+# hexo-admin authentification
+admin:
+  username: crews
+  password_hash: $2a$10$Oqh10mIRosS.dln/N7vD..ddVh0R7aGGuwO/2DN4bQDDI81Pq/3rq
+  secret: my super secret phrase
+  deployCommand: hexo generate --deploy
