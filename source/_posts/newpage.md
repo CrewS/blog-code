@@ -1,4 +1,4 @@
-title: newpage
+title: hexo博客起步
 tags:
   - hexo
 categories: []
