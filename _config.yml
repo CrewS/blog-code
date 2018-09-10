@@ -14,7 +14,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://crews.github.io/blog
-root: /blog
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -79,7 +79,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:CrewS/blog.git
+  repo: git@github.com:CrewS/CrewS.github.io.git
   branch: master
 
 # hexo-admin authentification
@@ -88,3 +88,24 @@ admin:
   password_hash: $2a$10$Oqh10mIRosS.dln/N7vD..ddVh0R7aGGuwO/2DN4bQDDI81Pq/3rq
   secret: my super secret phrase
   deployCommand: hexo generate --deploy
+
+# hexo-neat
+
+neat_enable: true
+
+neat_html:
+  enable: true
+  exclude:
+  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
