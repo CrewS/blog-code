@@ -198,7 +198,7 @@ export default function combineReducers(reducers) {
 查看源码发现在createStore.js中有 dispatch({ type: ActionTypes.INIT })，完成初始化的过程
 
 ### 总结
-这次回顾reduxr，收获的不仅是对redux原理的理解，还有学习源码的方式，因为很多源码晦涩难懂
+这次回顾redux，收获的不仅是对redux原理的理解，还有学习源码的方式，因为很多源码晦涩难懂
 而且读着读着就走偏，不是所有都是你关心的内容，所以认识到带着问题去阅读源码是比较高效的一种方式
 下面是我这次源码阅读的思路
 #### 问题驱动型阅读源码方式
