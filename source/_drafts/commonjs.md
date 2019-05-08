@@ -187,3 +187,4 @@ console.log(_a__WEBPACK_IMPORTED_MODULE_0___default.a)
 ## continue
 
 ## 参考资料
+- [webpack commonjs规范](https://segmentfault.com/a/1190000011435407)

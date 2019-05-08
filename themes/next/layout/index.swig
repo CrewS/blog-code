@@ -14,7 +14,6 @@
       {{ post_template.render(post, true) }}
     {% endfor %}
   </section>
-
   {% include '_partials/pagination.swig' %}
 {% endblock %}
 

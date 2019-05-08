@@ -74,7 +74,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -94,7 +94,7 @@ menu:
   home: / || home
   about: /about/ || user
   tags: /tags/ || tags
-  #categories: /categories/ || th
+  # categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -810,3 +810,18 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+gitalk:
+  enable: true
+  githubID: Crews
+  repo: CrewS.github.io
+  ClientID: 948b7b9d3202ee495408
+  ClientSecret: 93c0ae68c7ebab99443a58aa09ea8687e605aae8
+  adminUser: Crews
+  distractionFreeMode: true
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
