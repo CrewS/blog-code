@@ -60,7 +60,7 @@ if(/micromessenger/i.test(ua)){
                 // 确保分享的图片都是设置的图片，而不是微信默认抓取的
                 wx.ready(function(){
                     var wxShareImg = 'logo address';
-                    bindWxShadere({
+                    bindWxShare({
                         title: '自定义标题',
                         link: 'your link',
                         imgUrl: wxShareImg,
