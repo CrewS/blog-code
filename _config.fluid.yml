@@ -88,3 +88,52 @@ admin:
   password_hash: $2a$10$Oqh10mIRosS.dln/N7vD..ddVh0R7aGGuwO/2DN4bQDDI81Pq/3rq
   secret: my super secret phrase
   deployCommand: hexo generate --deploy
+
+index:
+  banner_img:  /img/bg/banner.jpeg
+  title : 程序与浪漫
+  slogan:
+    enable: true
+
+    # 为空则按 hexo config.subtitle 显示
+    # If empty, text based on `subtitle` in hexo config
+    text: "进击的前端攻城狮"
+
+post:
+  banner_img: /img/bg/banner.webp
+  comments:
+    enable: true
+    type: valine
+archive:
+  banner_img: /img/bg/banner.webp
+
+category:
+  enable: true
+  banner_img: /img/bg/banner.webp
+
+tag:
+  enable: true
+  banner_img: /img/bg/banner.webp
+
+about:
+  enable: true
+  banner_img: /img/bg/banner.webp
+  
+valine:
+  appid: xRa1JW54LJazYalhrKkVR4Yk-gzGzoHsz
+  appKey: 16u5FmQt2ppD2oWWH6e1QgAy
+
+
+navbar:
+  blog_title: 程序与浪漫
+footer:
+  statistics:
+    enable: true
+    source: "leancloud"  # 可选 leancloud | busuanzi  根据自己需求选择
+    pv_format: "总访问量 {} 次"  # 显示的文本，{}是数字的占位符（必须包含)，下同
+    uv_format: "总访客数 {} 人"
+web_analytics:
+  leancloud:
+    app_id: nH7hj3REOl2YmwRYD4G0sJjh-MdYXbMMI
+    app_key: GzlH8knsCkvR5vGWn3pPhj3c
+
