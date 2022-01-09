@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://crews.github.io/blog
+url: https://xialai.cc/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -118,7 +118,13 @@ tag:
 about:
   enable: true
   banner_img: /img/bg/banner.webp
-  
+  avatar: /img/bg/avatar.JPG
+  name: "Crews"
+  intro: "前端/逆向/爬虫/web安全"
+  icons:  # 不要把 icon 注释掉，否则无法覆盖配置
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/CrewS' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/qrcode.jpg' }
+
 valine:
   appid: xRa1JW54LJazYalhrKkVR4Yk-gzGzoHsz
   appKey: 16u5FmQt2ppD2oWWH6e1QgAy
@@ -134,7 +140,18 @@ footer:
     uv_format: "总访客数 {} 人"
 
 web_analytics:
+  enable: true
   leancloud:
     app_id: nH7hj3REOl2YmwRYD4G0sJjh-MdYXbMMI
     app_key: GzlH8knsCkvR5vGWn3pPhj3c
 
+# 文章图片可点击放大
+# Zoom feature of images
+image_zoom:
+  enable: true
+static_prefix:
+  internal_img: /img
+  url: https://cdn.jsdelivr.net/gh/CrewS/CrewS.github.io
+
+
+# https://cdn.jsdelivr.net/gh/CrewS/CrewS.github.io/blob/master/img/bg/banner.jpeg
