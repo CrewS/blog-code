@@ -6,7 +6,6 @@ tags:
 
 banner_img: /img/bg/banner.webp
 index_img: /img/bg/banner.webp
-excerpt: 这是摘要
 ---
 
 

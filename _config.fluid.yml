@@ -144,6 +144,8 @@ web_analytics:
   leancloud:
     app_id: nH7hj3REOl2YmwRYD4G0sJjh-MdYXbMMI
     app_key: GzlH8knsCkvR5vGWn3pPhj3c
+  cnzz: 1280774100
+  baidu: e0573025d0cbd0186c86a21250f26e69
 
 # 文章图片可点击放大
 # Zoom feature of images
