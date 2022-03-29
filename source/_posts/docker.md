@@ -20,7 +20,7 @@ Docker 项目的目标是实现轻量级的操作系统虚拟化解决方案。 
 ### Docker引擎
 
 
-![image.png | left | 492x385](https://cdn.nlark.com/yuque/0/2018/png/151680/1535682119390-7a7db477-db85-46f4-ba51-3e9ef2844d87.png "")
+![image.png | left | 492x385](https://crews-note-1253247308.cos.ap-guangzhou.myqcloud.com/note/20220307002521.png "")
 
 * Server是一个常驻进程
 * REST API实现了client和server间的交互协议

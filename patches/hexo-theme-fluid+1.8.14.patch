@@ -1,12 +1,19 @@
-diff --git a/node_modules/hexo-theme-fluid/layout/_partial/head.ejs b/node_modules/hexo-theme-fluid/layout/_partial/head.ejs
-index 6e27f7c..e9361d4 100644
---- a/node_modules/hexo-theme-fluid/layout/_partial/head.ejs
-+++ b/node_modules/hexo-theme-fluid/layout/_partial/head.ejs
-@@ -17,6 +17,7 @@ var ogConfig = Object.assign({ image: ogImage && url_for(ogImage) }, theme.open_
-   <meta charset="UTF-8">
-   <link rel="apple-touch-icon" sizes="76x76" href="<%= url_for(theme.apple_touch_icon) %>">
-   <link rel="icon" href="<%= url_for(theme.favicon) %>">
-+  <meta name="referrer" content="no-referrer" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <% if (theme.force_https) { %>
+diff --git a/node_modules/hexo-theme-fluid/layout/post.ejs b/node_modules/hexo-theme-fluid/layout/post.ejs
+index 2b73853..734141c 100644
+--- a/node_modules/hexo-theme-fluid/layout/post.ejs
++++ b/node_modules/hexo-theme-fluid/layout/post.ejs
+@@ -28,6 +28,14 @@ page.banner_mask_alpha = page.banner_mask_alpha || theme.post.banner_mask_alpha
+             <hr>
+             <div>
+               <div class="post-metas mb-3">
++                <div style="text-align:center">
++                  <p>感谢观看~</p>
++                  <p>觉得有帮助的朋友可以关注一波噢！~</p>
++                  <p>「程序与浪漫」持续更新前端/爬虫/安全相关的知识~</p>
++                  <p>
++                    <a class="fancybox fancybox.image" href="https://crews-note-1253247308.cos.ap-guangzhou.myqcloud.com/note/qrcode.jpg" itemscope="" itemtype="http://schema.org/ImageObject" itemprop="url" data-fancybox="default" rel="default" title="公众号" data-caption="公众号"><img src="https://crews-note-1253247308.cos.ap-guangzhou.myqcloud.com/note/qrcode.jpg" alt="公众号"><p class="image-caption">公众号</p></a>
++                  </p>
++                </div>
+                 <% if (page.categories && page.categories.length > 0) { %>
+                   <div class="post-meta mr-3">
+                     <i class="iconfont icon-category"></i>

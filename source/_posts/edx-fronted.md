@@ -28,7 +28,7 @@ RUN npm i -g npm@latest // 简单来说就是将npm的版本改为最新版本
 第四步: 等待启动完毕后，打开 `http://localhost:18011/assets.html`，点击 `Log in`，输入账号 [edx@example.com](mailto:edx@example.com) 密码 edx 登录系统后，回到 assets页面，即可看到如下页面
 
 
-![image.png | left | 747x373](https://cdn.nlark.com/yuque/0/2018/png/151680/1533003086237-da40c61b-b4d7-4243-971a-247126e08667.png "")
+![image.png | left | 747x373](https://crews-note-1253247308.cos.ap-guangzhou.myqcloud.com/note/20220307002603.png "")
 
 至此，一个官方的studio-frontend 前端搭建起来
 ### 分析
